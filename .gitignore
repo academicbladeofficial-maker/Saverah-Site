@@ -1,0 +1,14 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment & local deployment overrides
+.env
+.env.local
+.vercel

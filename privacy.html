@@ -1,0 +1,266 @@
+<!-- DRAFT: This document requires legal review before formal publication. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Saverah</title>
+  <meta name="description" content="Privacy Policy for Saverah. Learn how we collect, store, scan, and safeguard your cultural media, personal data, and archival memories.">
+  <link rel="canonical" href="https://saverah.com/privacy.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://saverah.com/privacy.html">
+  <meta property="og:title" content="Privacy Policy – Saverah">
+  <meta property="og:description" content="Transparent privacy practices for Saverah: zero ad tracking, zero data sales, self-hosted content moderation, and permanent account deletion.">
+  <meta property="og:image" content="https://saverah.com/assets/og-cover.png">
+  <meta property="og:site_name" content="Saverah">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://saverah.com/privacy.html">
+  <meta name="twitter:title" content="Privacy Policy – Saverah">
+  <meta name="twitter:description" content="Transparent privacy practices for Saverah: zero ad tracking, zero data sales, self-hosted content moderation, and permanent account deletion.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="index.html" class="brand-link" aria-label="Saverah Home">
+        <span class="brand-icon" aria-hidden="true">S</span>
+        <span>Saverah</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="support.html" class="btn-support">Support &amp; Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Document Header -->
+  <main class="container">
+    <div class="text-container">
+      <div class="doc-header">
+        <h1>Privacy Policy</h1>
+        <div class="doc-meta">
+          <span><strong>Effective Date:</strong> October 9, 2026</span>
+          <span><strong>Version:</strong> 1.0 (Production Draft)</span>
+          <span><strong>Scope:</strong> Saverah Mobile Application &amp; Associated Services</span>
+        </div>
+      </div>
+
+      <!-- Legal Draft Disclaimer Box (Visible to Users) -->
+      <div class="legal-notice-box" role="note">
+        <strong>Important Notice:</strong>
+        <p>This document details the precise technical and architectural data practices of the Saverah application. It is maintained in draft status pending final legal counsel review prior to general production release on Google Play.</p>
+      </div>
+
+      <!-- Document Content -->
+      <article class="doc-content">
+        <section id="introduction">
+          <h2>1. Introduction &amp; Core Mission</h2>
+          <p>
+            Saverah ("we", "our", or "the platform") is a specialized mobile platform dedicated to cultural and traditional media preservation. Saverah empowers users to celebrate community traditions via a public discovery feed, while safeguarding sacred ceremonies, family genealogies, and private heirlooms within secure archival vaults ("digital time capsules").
+          </p>
+          <p>
+            Because cultural heritage represents intimate identity and community trust, we believe privacy and data transparency must be foundational. This Privacy Policy discloses what data we collect, how it is stored and processed, our automated server-side moderation methods, our infrastructure sub-processors, and your absolute right to permanent account and media deletion.
+          </p>
+        </section>
+
+        <section id="data-collected">
+          <h2>2. Information We Collect and How We Collect It</h2>
+          <p>We collect only the information strictly necessary to provide the Saverah platform services:</p>
+
+          <h3>A. Authentication &amp; Account Identity</h3>
+          <p>
+            Authentication in Saverah is managed exclusively through <strong>Supabase Auth</strong>. When creating an account or logging in, you may use:
+          </p>
+          <ul>
+            <li><strong>Email &amp; Password Sign-in:</strong> We collect and store your verified email address and an encrypted credential hash.</li>
+            <li><strong>Third-Party Social Sign-in (OAuth):</strong> You may choose to sign in via Google, Apple, or Facebook. When using OAuth, we receive your email address, public profile name, and OAuth provider identifier from the identity provider. We never receive or store your third-party account password.</li>
+          </ul>
+
+          <h3>B. Profile Information</h3>
+          <p>
+            You may optionally customize your profile with public attributes, including:
+          </p>
+          <ul>
+            <li>Username and display handle</li>
+            <li>Personal or community biographical statement (bio)</li>
+            <li>Avatar profile photo (stored in our secure media storage)</li>
+          </ul>
+
+          <h3>C. User-Generated Media &amp; Cultural Content</h3>
+          <p>
+            When utilizing the core features of Saverah, you upload media files:
+          </p>
+          <ul>
+            <li><strong>Photos &amp; Images:</strong> Cultural imagery, photographs, and generated thumbnails.</li>
+            <li><strong>Videos:</strong> Short or long-form documentation of cultural practices, ceremonies, and narratives, along with automatically generated video thumbnails.</li>
+            <li><strong>Archival Folders &amp; Organization:</strong> Folder names, descriptions, cover images, and visibility designations (either <em>Public</em> for global community discovery, or <em>Private</em> for personal time capsule archiving).</li>
+            <li><strong>Drafts &amp; Annotations:</strong> Unfinished media uploads, descriptions, cultural tags, and context notes saved prior to publication.</li>
+          </ul>
+
+          <h3>D. Platform Interactions &amp; Operational Metadata</h3>
+          <p>
+            When you interact with Saverah, our database records essential operational data:
+          </p>
+          <ul>
+            <li>In-app searches and category filters (to deliver relevant cultural discovery feeds)</li>
+            <li>Folder invitations and shared collection memberships between authorized users</li>
+            <li>Direct user-to-user messages and safety reports regarding rule violations</li>
+            <li>Internal video playback telemetry and recommendation signals (used exclusively within Saverah to improve your personal feed experience)</li>
+          </ul>
+        </section>
+
+        <section id="sub-processors">
+          <h2>3. Infrastructure &amp; Technical Sub-Processors</h2>
+          <p>
+            Saverah does not operate unvetted third-party services. We rely on two trusted infrastructure providers to power the platform:
+          </p>
+          <div class="doc-callout">
+            <p><strong>1. Supabase Inc. (Database, Authentication &amp; Object Storage):</strong></p>
+            <p>
+              We utilize Supabase to host our managed PostgreSQL database (configured with strict Row-Level Security / RLS policies), identity management (Supabase Auth), and media object storage buckets (<code>avatars</code>, <code>videos</code>, <code>photos</code>, <code>folders</code>). Data is encrypted in transit using modern TLS and at rest.
+            </p>
+          </div>
+          <div class="doc-callout">
+            <p><strong>2. Railway Corp. (Backend API &amp; Server Hosting):</strong></p>
+            <p>
+              Our backend API services, asynchronous workers, and moderation pipeline run on Railway containerized infrastructure. Railway processes incoming HTTP/REST requests and mediates uploads between the mobile app and storage.
+            </p>
+          </div>
+          <p>
+            We do not transmit your personal data to any other third-party cloud analytics, surveillance companies, or telemetry aggregators.
+          </p>
+        </section>
+
+        <section id="content-moderation">
+          <h2>4. Content Moderation &amp; Automated Scanning</h2>
+          <p>
+            To uphold a safe, culturally dignified environment compliant with Google Play safety requirements and community standards, Saverah inspects media uploaded to public discovery feeds:
+          </p>
+          <ul>
+            <li><strong>Automated Pre-Publication Screening:</strong> All media submitted for public discovery or shared feeds is automatically analyzed for explicit adult content, pornography, and illicit material before it is published to the public feed.</li>
+            <li><strong>Self-Hosted, On-Premise Technology:</strong> Our scanning pipeline uses an embedded, self-hosted machine learning model (<strong>NSFWJS</strong> powered by <strong>TensorFlow.js MobileNetV2</strong>) running directly within our own backend container on Railway.</li>
+            <li><strong>Zero Third-Party Sharing:</strong> Your media is processed internally on our own servers. <strong>It is never submitted, transmitted, or shared with commercial third-party moderation APIs or external AI services</strong>.</li>
+            <li><strong>Private Vaults Remain Private:</strong> Content designated strictly as private archival storage in your private time capsules is restricted to your account and authorized circle members; it is never broadcast to public feeds.</li>
+          </ul>
+        </section>
+
+        <section id="no-tracking-no-sale">
+          <h2>5. Absolute Prohibition on Ad Tracking &amp; Data Sales</h2>
+          <p>
+            Saverah operates under a strict principle of non-commercialization of user personal information:
+          </p>
+          <div class="doc-callout">
+            <p><strong>✓ No Ad Tracking Networks:</strong> Saverah contains zero third-party advertising SDKs, cross-app tracking beacons, behavioral ad cookies, or device fingerprinting libraries.</p>
+            <p><strong>✓ No Data Sales:</strong> We do not sell, rent, monetize, or lease your personal information, profile data, browsing habits, or uploaded media to data brokers, advertising platforms, or commercial aggregators under any circumstances.</p>
+          </div>
+        </section>
+
+        <section id="account-deletion">
+          <h2>6. Account Deletion &amp; Data Erasure (Real App Behavior)</h2>
+          <p>
+            Under Google Play Developer policies and global data protection laws (such as GDPR and CCPA), you have the absolute right to delete your account and all associated data at any time.
+          </p>
+          <p>
+            In Saverah, account deletion is not a "soft-delete" or temporary deactivation. When an account deletion is initiated—either by you within the app settings or via a verified request to our support team—our backend automated deletion service (<code>account_deletion_service.js</code>) executes an immediate, irreversible wipe:
+          </p>
+          <ol>
+            <li>
+              <strong>Storage Asset Purge:</strong> All media files owned by your account across Supabase Storage buckets—including your profile avatar, all uploaded videos and thumbnails, public and private photos, draft media, and custom folder covers—as well as temporary local server processing caches are permanently removed.
+            </li>
+            <li>
+              <strong>Database Record Wipe:</strong> All records associated with your account are permanently erased from our PostgreSQL database tables. This includes your user profile, public videos, public photos, drafts, public and private folders, folder memberships and invites, shared collection links, in-app search history, recommendation signals, video analytics telemetry, notifications, messages, and moderation reports.
+            </li>
+            <li>
+              <strong>Authentication Identity Removal:</strong> Your credential identity is permanently deleted from Supabase Auth (<code>supabase.auth.admin.deleteUser</code>), revoking all active sessions, tokens, and OAuth associations.
+            </li>
+          </ol>
+          <p>
+            Once completed, your account cannot be recovered, and no residual media remains on our servers. You may also request deletion via email at <a href="mailto:support@saverah.com">support@saverah.com</a> as detailed on our <a href="support.html#deletion">Support Page</a>.
+          </p>
+        </section>
+
+        <section id="children">
+          <h2>7. Children's Privacy</h2>
+          <p>
+            Saverah is not directed to children under the age of 13 (or under 16 where required by local law). We do not knowingly collect personal data from children under these age thresholds. If you become aware that a child has provided us with personal data without parental consent, please contact us at <a href="mailto:support@saverah.com">support@saverah.com</a> so we may promptly execute account deletion.
+          </p>
+        </section>
+
+        <section id="security">
+          <h2>8. Data Security Practices</h2>
+          <p>
+            We implement industry-standard safeguards to protect your cultural archives and personal information:
+          </p>
+          <ul>
+            <li>Database Row-Level Security (RLS) ensuring that private archives can only be accessed by the authenticated owner or explicitly invited circle members.</li>
+            <li>HTTPS / TLS 1.3 encryption across all network transmissions between the mobile client and backend APIs.</li>
+            <li>Principle of least privilege applied to cloud service credentials and backend environment access.</li>
+          </ul>
+        </section>
+
+        <section id="contact-us">
+          <h2>9. How to Contact Us Regarding Privacy</h2>
+          <p>
+            If you have questions, feedback, or requests concerning this Privacy Policy or your personal data rights, please contact our designated privacy and support team:
+          </p>
+          <div class="doc-callout">
+            <p><strong>Saverah Privacy &amp; Data Protection</strong></p>
+            <p>Email: <a href="mailto:support@saverah.com">support@saverah.com</a></p>
+            <p>Online Support Portal: <a href="support.html">saverah.com/support.html</a></p>
+            <p>Response Time: Typically within 2 to 3 business days.</p>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>Saverah</h4>
+          <p>Preserving cultural heritage and living traditions through secure public storytelling and private digital time capsules.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Platform &amp; Legal</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Support &amp; Safety</h5>
+          <ul>
+            <li><a href="support.html">Help &amp; Contact</a></li>
+            <li><a href="support.html#report">Report Inappropriate Content</a></li>
+            <li><a href="support.html#deletion">Account Deletion Request</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; <span id="year">2026</span> Saverah. All rights reserved.</div>
+        <div>Compliant with Google Play Developer Program Policies.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

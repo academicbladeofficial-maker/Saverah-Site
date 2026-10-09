@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saverah.com/sitemap.xml

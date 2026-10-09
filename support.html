@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support &amp; Contact – Saverah</title>
+  <meta name="description" content="Contact the Saverah support team. Submit inquiries, report objectionable content, or request account and data deletion.">
+  <link rel="canonical" href="https://saverah.com/support.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saverah.com/support.html">
+  <meta property="og:title" content="Support &amp; Contact – Saverah">
+  <meta property="og:description" content="Get help with Saverah, report policy violations, or submit data erasure requests.">
+  <meta property="og:image" content="https://saverah.com/assets/og-cover.png">
+  <meta property="og:site_name" content="Saverah">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://saverah.com/support.html">
+  <meta name="twitter:title" content="Support &amp; Contact – Saverah">
+  <meta name="twitter:description" content="Get help with Saverah, report policy violations, or submit data erasure requests.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="index.html" class="brand-link" aria-label="Saverah Home">
+        <span class="brand-icon" aria-hidden="true">S</span>
+        <span>Saverah</span>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="support.html" class="active btn-support">Support &amp; Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
+    <div class="text-container" style="max-width: 900px;">
+      <div class="doc-header">
+        <h1>User Support &amp; Safety Helpdesk</h1>
+        <p class="hero-subtitle" style="margin-left: 0; text-align: left; max-width: 100%;">
+          We are here to assist you with technical issues, cultural archiving inquiries, policy reports, and account administration.
+        </p>
+      </div>
+
+      <!-- Contact Grid -->
+      <div class="contact-grid">
+        <!-- Direct Contact Channels -->
+        <div class="contact-card">
+          <h2>Direct Contact Channels</h2>
+          <p>For Google Play compliance, security notices, and general inquiries, our dedicated team is reachable via:</p>
+
+          <ul class="info-list">
+            <li class="info-item">
+              <div class="info-item-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="info-item-content">
+                <h4>Primary Support Email</h4>
+                <p><a href="mailto:support@saverah.com" style="font-weight: 600; font-size: 1.05rem;">support@saverah.com</a></p>
+                <p style="font-size: 0.8rem; color: var(--color-text-light);">Direct inbox monitored daily.</p>
+              </div>
+            </li>
+
+            <li class="info-item">
+              <div class="info-item-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div class="info-item-content">
+                <h4>Response Timeframe</h4>
+                <p>Initial response typically within <strong>24 to 48 hours</strong> on business days.</p>
+              </div>
+            </li>
+
+            <li class="info-item">
+              <div class="info-item-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+              </div>
+              <div class="info-item-content">
+                <h4>App Developer</h4>
+                <p>Saverah Team &bull; Android App Listing Support</p>
+              </div>
+            </li>
+          </ul>
+
+          <div style="margin-top: 2rem;">
+            <a href="mailto:support@saverah.com?subject=Saverah%20Support%20Inquiry" class="btn-primary btn-block">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Email Us Directly
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact & Report Form -->
+        <div class="contact-card">
+          <h2>Send a Support Message</h2>
+          <p>Fill out the form below to draft an email directly to our support desk.</p>
+
+          <form id="support-form" onsubmit="handleSupportSubmit(event)">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="e.g. Jane Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Your Registered Email</label>
+              <input type="email" id="contact-email" class="form-control" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-category" class="form-label">Subject Category</label>
+              <select id="contact-category" class="form-control" required>
+                <option value="General Inquiry">General Inquiry / Feedback</option>
+                <option value="Report Inappropriate Content">Report Inappropriate / Prohibited Content</option>
+                <option value="Account Deletion Request">Account &amp; Data Deletion Request</option>
+                <option value="Copyright / Intellectual Property">Copyright / Intellectual Property Notice</option>
+                <option value="Technical Issue / Bug Report">Technical Issue / Bug Report</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message Details</label>
+              <textarea id="contact-message" class="form-control" placeholder="Please provide details, URLs or usernames if reporting content..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary btn-block">
+              Send Support Request
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Content Moderation & Reporting Escalation (Google Play Requirement) -->
+      <section id="report" style="margin-top: 4rem;">
+        <h2>Reporting Inappropriate Content</h2>
+        <div class="doc-callout">
+          <p><strong>UGC Safety &amp; Content Takedown Policy:</strong></p>
+          <p>
+            Saverah takes community safety seriously. While our self-hosted TensorFlow.js/NSFWJS scanner pre-screens public submissions, community reporting is vital. If you observe any content violating our <a href="terms.html#prohibited-content">Prohibited Content Guidelines</a> (such as pornography, hate speech, or harassment):
+          </p>
+          <ol style="margin-top: 0.75rem; margin-bottom: 0.75rem;">
+            <li><strong>In-App Report:</strong> Tap the options menu (<code>⋮</code>) on any public post or profile and select <strong>Report</strong>.</li>
+            <li><strong>Direct Support Email:</strong> Alternatively, email <a href="mailto:support@saverah.com?subject=URGENT%20Content%20Report">support@saverah.com</a> with the subject line <code>URGENT: Content Report</code>, including the username, post link or screenshot, and the nature of the violation.</li>
+          </ol>
+          <p>Reported items are reviewed by human administrators promptly. Confirmed violations result in immediate content removal and appropriate sanctions on the offending account.</p>
+        </div>
+      </section>
+
+      <!-- Account & Data Deletion Request (Google Play Requirement) -->
+      <section id="deletion" style="margin-top: 3.5rem;">
+        <h2>Account &amp; Data Deletion Instructions</h2>
+        <p>
+          In accordance with Google Play's User Data policy and global privacy laws, you can request the permanent deletion of your account and all associated data at any time:
+        </p>
+        <div class="doc-callout">
+          <p><strong>Option 1: In-App Instant Deletion (Recommended)</strong></p>
+          <p>
+            Open Saverah &rarr; Navigate to <strong>Settings</strong> &rarr; Select <strong>Account</strong> &rarr; Tap <strong>Delete Account</strong>. This immediately invokes our automated deletion service (<code>account_deletion_service.js</code>) to wipe your media, database rows, and credentials instantly.
+          </p>
+        </div>
+        <div class="doc-callout">
+          <p><strong>Option 2: Web / Email Deletion Request</strong></p>
+          <p>
+            If you have uninstalled the app or cannot access your account, send an email to <a href="mailto:support@saverah.com?subject=Account%20Deletion%20Request">support@saverah.com</a> with the subject <code>Account Deletion Request</code> from your registered email address. We will verify your identity and execute the deletion protocol within 48 hours.
+          </p>
+        </div>
+      </section>
+
+      <!-- Frequently Asked Questions -->
+      <section id="faq" style="margin-top: 3.5rem;">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>How does private archival storage work?</h3>
+            <p>
+              When you designate a folder or item as "Private" in Saverah, it is stored in secure archival storage protected by database Row-Level Security (RLS). It is never indexed on our public discovery feed and cannot be searched or viewed by anyone other than yourself and members you explicitly invite.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Does Saverah track me or sell my information?</h3>
+            <p>
+              No. Saverah contains zero third-party advertising SDKs, zero data trackers, and never sells, rents, or monetizes personal data or uploaded media to data brokers or advertisers.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>How do I reset my password?</h3>
+            <p>
+              On the login screen of the mobile application, select "Forgot Password" to receive a secure password reset link via Supabase Auth to your registered email address.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>What file formats are supported for cultural documentation?</h3>
+            <p>
+              Saverah supports standard photo formats (JPEG, PNG, WebP) and video formats (MP4, WebM, MOV) up to our standard media size limits.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4>Saverah</h4>
+          <p>Preserving cultural heritage and living traditions through secure public storytelling and private digital time capsules.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Platform &amp; Legal</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="sitemap.xml">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Support &amp; Safety</h5>
+          <ul>
+            <li><a href="support.html">Help &amp; Contact</a></li>
+            <li><a href="#report">Report Inappropriate Content</a></li>
+            <li><a href="#deletion">Account Deletion Request</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; <span id="year">2026</span> Saverah. All rights reserved.</div>
+        <div>Compliant with Google Play Developer Program Policies.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function handleSupportSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('contact-name').value;
+      const email = document.getElementById('contact-email').value;
+      const category = document.getElementById('contact-category').value;
+      const message = document.getElementById('contact-message').value;
+
+      const subject = encodeURIComponent(`[Saverah Support] ${category} - ${name}`);
+      const body = encodeURIComponent(
+        `Name: ${name}\n` +
+        `User Email: ${email}\n` +
+        `Category: ${category}\n\n` +
+        `Details:\n${message}\n\n` +
+        `---\nSent via Saverah Support Portal`
+      );
+
+      // Open email client with pre-filled content
+      window.location.href = `mailto:support@saverah.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</body>
+</html>
